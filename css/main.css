@@ -312,28 +312,32 @@ header .contact-detals .container p:hover {
 }
 
 
-.swiper1 article {
+.swiper1 article,
+.services-pro article {
     background: #e5e5e5;
     padding: 25px 21px;
 }
 
-.swiper1 article .content {
+.swiper1 article .content,
+.services-pro article .content {
     margin-top: 20px;
 }
 
-.swiper1 article:hover i::before {
+.swiper1 article:hover i::before,
+.services-pro article:hover i::before {
     animation: rot 1s infinite;
     -webkit-animation: rot 1s infinite;
 }
 
-.swiper1 article h4 {
+.swiper1 article h4 .services-pro article h4 {
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
     color: #322D7A;
 }
 
-.swiper1 article p {
+.swiper1 article p,
+.services-pro article p {
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
@@ -341,7 +345,8 @@ header .contact-detals .container p:hover {
     margin: 10px 0 25px;
 }
 
-.swiper1 article i {
+.swiper1 article i,
+.services-pro article i {
     font-size: 35px;
     padding: 5px;
     color: #00C2FF;
@@ -350,12 +355,14 @@ header .contact-detals .container p:hover {
     position: relative;
 }
 
-.swiper1 article i::before {
+.swiper1 article i::before,
+.services-pro article i::before {
     width: 50px;
     text-align: center;
 }
 
-.swiper1 article i::after {
+.swiper1 article i::after,
+.services-pro article i::after {
     content: "";
     position: absolute;
     width: 40px;
@@ -740,13 +747,15 @@ footer .row ul li a {
     line-height: 24px;
     color: #646464;
 }
+
 footer li:hover {
-    transform:translateX(10px);
-    -webkit-transform:translateX(10px);
-    -moz-transform:translateX(10px);
-    -ms-transform:translateX(10px);
-    -o-transform:translateX(10px);
+    transform: translateX(10px);
+    -webkit-transform: translateX(10px);
+    -moz-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    -o-transform: translateX(10px);
 }
+
 footer li:hover a {
     text-decoration: underline;
 }
@@ -770,3 +779,85 @@ footer i {
 }
 
 /* footer */
+
+
+
+
+
+/* serves page */
+.services-pro h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.services-pro .row {
+    margin-bottom: 20px;
+}
+
+.services-pro .row article {
+    margin-bottom: 20px;
+}
+
+.certifications {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.certifications h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.certifications .card {
+    background: transparent;
+    border: none;
+    min-width: 25%;
+}
+
+.certifications .card h4 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #322D7A;
+}
+
+/* serves page */
+
+/* serv product page */
+.breadcrumb {
+    margin-top: 30px;
+}
+
+.breadcrumb a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: black;
+}
+
+.breadcrumb .active {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--main-color);
+}
+
+.dis .nav-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+.dis .nav-link.active {
+    background: rgba(50, 45, 122, 0.1);
+    color: var(--main-color);
+
+    overflow-y: visible;
+}
+
+/* serv product page */
