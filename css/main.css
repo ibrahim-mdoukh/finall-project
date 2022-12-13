@@ -713,42 +713,60 @@ footer {
     background: #F0F0F0;
 }
 
-footer .row  p {
+footer .row p {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #7C7C7C;
     margin: 14px 0;
 }
-footer .row  h4 {
+
+footer .row h4 {
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
     color: var(--main-color);
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
-footer .row  ul {
+
+footer .row ul {
     margin: 0;
     padding: 0;
 }
-footer .row  ul li a {
+
+footer .row ul li a {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #646464;
 }
-footer .row  ul li{
+footer li:hover {
+    transform:translateX(10px);
+    -webkit-transform:translateX(10px);
+    -moz-transform:translateX(10px);
+    -ms-transform:translateX(10px);
+    -o-transform:translateX(10px);
+}
+footer li:hover a {
+    text-decoration: underline;
+}
+
+footer .row ul li {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #646464;
     margin-bottom: 5px;
 }
-.sub-footer{
+
+.sub-footer {
     margin-top: 20px;
     background-color: var(--main-color);
+    padding: 10px 0;
 }
+
 footer i {
     color: var(--main-color);
 }
+
 /* footer */
